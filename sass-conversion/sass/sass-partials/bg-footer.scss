@@ -1,0 +1,36 @@
+.bg-footer {
+  background-color: #fff;
+  color: #d4d4d4;
+}
+
+footer {
+  .col-2:first-child {
+    border-left: 0;
+  }
+  padding: 2rem 0;
+  p:last-child {}
+}
+
+footer {
+  h4 {
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem;
+    color: #7C593C;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #222;
+  }
+  .fa-circle {
+    color: #222;
+  }
+  h4 {
+    &[lang=de] {
+      display: block;
+    }
+    &[lang=en], &[lang=ar], &[lang=ru] {
+      display: none;
+    }
+  }
+}
